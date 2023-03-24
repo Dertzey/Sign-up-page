@@ -142,7 +142,7 @@ body {
 }
 
 .Login a:hover {
-    color: #3577FF;
+    color: #3DB4F2;
 }
 
 #main-footer {
@@ -158,11 +158,11 @@ body {
     align-items: center;
 }
 
-#main-footer a {
+.footer-links1 a, .footer-links2 a, .footer-links3 a, .footer-links4 a {
     color: #a0b1c5;
 }
 
-#main-footer a:hover {
+.footer-links1 a:hover, .footer-links2 a:hover, .footer-links3 a:hover, .footer-links4 a:hover {
     color: #3DB4F2;
 }
 
@@ -176,8 +176,21 @@ body {
     color: #3DB4F2;
 }
 
-a.site-theme-wrapper {
-    border: 3px border #a0b1c5;
+a.site-theme-wrapper-a1,a.site-theme-wrapper-a2,a.site-theme-wrapper-a3,a.site-theme-wrapper-a4 {
+    border: 2px solid #a0b1c5;
+    border-radius: 5px;
+    padding: 5px 15px 0px 2px;
+    margin-right: 15px;
+    color: #a0b1c5;
+}
+
+a.site-theme-wrapper-a1,a.site-theme-wrapper-a3 {
+    background-color: white;
+    color: black;
+}
+
+.site-theme-wrapper-a4 {
+    background: linear-gradient(45deg,#11161d 55%,#edf1f5 0);
 }
 
 .footer-links {
